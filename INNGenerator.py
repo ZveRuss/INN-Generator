@@ -87,8 +87,7 @@ if __name__ == '__main__':
                     n = 1
             except ValueError:
                 print('Incorrect input format, must be: [KNO: number] [count: number]')
-                kno = None
-                n = 1
+                continue
 
             for i in range(n):
                 if kno:
